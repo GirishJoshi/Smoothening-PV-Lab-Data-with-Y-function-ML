@@ -10,6 +10,20 @@ Constant-composition expansion experiments are performed on gas condensates or c
  * Compressibility factors of the gas phase
  * Total hydrocarbon volume as a function of pressure
 
+#### Involved Equations
+
+pSat = 1936 psi
+
+Vrel = Vt / Vsat
+
+Y = (pSat - p) / (p * (Vrel - 1))
+
+Y = a + bP
+
+*Source*: Tarek H. Ahmed, Reservoir Engineering Handbook, Chapter 3, pg. 130-142.
+
+**Note**: Data is taken from the book.
+
 ![Alt text](/figure_1.png?raw=true "P vs V Graph")
 
 ![Alt text](/figure_2.png?raw=true "P vs Y Graph")
